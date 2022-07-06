@@ -81,7 +81,7 @@ public abstract class CanBo {
     public abstract String getStringValue();
     
     public String getNgaySinh(){
-        return ""+this.ngaySinh.getDate()+"/"+this.ngaySinh.getMonth()+"/"+(this.ngaySinh.getYear()+1900);
+        return ""+(this.ngaySinh.getDate()+1)+"/"+this.ngaySinh.getMonth()+"/"+(this.ngaySinh.getYear()+1900);
     }
     
     public Date getNgaySinhDate(){
